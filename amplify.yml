@@ -5,8 +5,8 @@ frontend:
       commands:
         - echo "=== Node version before ==="
         - node -v
-        - nvm install 18
-        - nvm use 18
+        - nvm install 22
+	- nvm use 22
         - echo "=== Node version after ==="
         - node -v
         - npm ci
